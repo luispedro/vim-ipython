@@ -120,9 +120,9 @@ IPython's object? Functionality
 
 If you're using gvim, mouse-over a variable to see IPython's ``?`` equivalent.
 If you're using vim from a terminal, or want to copy something from the
-docstring, type ``<leader>d``. ``<leader>`` is usually ``\`` (the backslash
-key).  This will open a quickpreview window, which can be closed by hitting
-``q`` or ``<escape>``.
+docstring, type ``<localleader>d``. ``<localleader>`` is usually ``\`` (the
+backslash key).  This will open a quickpreview window, which can be closed by
+hitting ``q`` or ``<escape>``.
 
 --------------------------------------
 IPython's tab-completion Functionality
@@ -143,7 +143,7 @@ IPython, and what IPython sends back in response.
 updated on every sent command (default: True).
 
 If at any later time you wish to bring this shell up, including if you've set
-``monitor_subchannel=False``, hit ``<leader>s``.
+``monitor_subchannel=False``, hit ``<localleader>s``.
 
 **NEW since IPython 0.12**
 For local kernels (kernels running on the same machine as vim), `Ctrl-C` in
